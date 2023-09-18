@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+   <h1 align="center" >Listing Example</h1> 
+  <h3> 
+    Defination:listing data in indexing form is called list</h3>
+   <h2>Example 1:Ordered Lsiting</h2>
+   <ol type="A"  start="5">
+    <li>List 1</li>
+    <li>List 2</li>
+    <li>List 3</li>
+    <li>List 4</li>
+    <li>List 5</li>
+    <li>List 6</li>
+</ol>
+   <h2>Example 2:Un-ordered Lsiting</h2>
+   <ul style="list-style-type:circle;">
+    <li>List 1</li>
+    <li>List 2</li>
+    <li>List 3</li>
+    <li>List 4</li>
+    <li>List 5</li>
+    <li>List 6</li>
+</ul>
+<h2>Example 3: Discription Listing</h2>
+<dl style="list-style-type: circle;">
+    <dd>Java</dd>
+    <dt>This is programming language</dt>
+</dl>
+    <dd>html</dd>
+    <dt>This is markup language</dt>
+</dl>
+</body>
+</html>
