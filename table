@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .even{
+background-color: aqua;
+    }
+    .odd{
+        background-color: green;
+            }
+</style>
+</head>
+<body>
+    <h2>Student Information</h2>
+    <table cellpadding="5" style="border:1px solid red; border-collapse:collapse;">
+        <tr class="odd">
+            <th rowspan="5" style="border:lpx solid red;background-color:skyblue;">KIET MCA</th>
+            <th colspan="5" style="border:lpx solid red; background-color:yellow;">Student Data</th>
+          
+        </tr>
+    <tr class="even">
+        <th style="border:lpx solid red">Name</th>
+        <th style="border:1px solid red">Section</th>
+        <th style="border:1px solid red">Roll no.</th>
+        <th style="border:1px solid red">course</th>
+    </tr>
+    <tr class="odd">
+        <td style="border:lpx solid red">Shobhit</td>
+        <td style="border:lpx solid red">C</td>
+        <td style="border:lpx solid red">49</td>
+        <td style="border:lpx solid red">MCA</td>
+
+    </tr>
+    <tr class="even">
+        <td style="border:lpx solid red">Ashish</td>
+        <td style="border:lpx solid red">C</td>
+        <td style="border:lpx solid red">9</td>
+        <td style="border:lpx solid red">MCA</td>
+
+    </tr>
+    <tr class="odd">
+        <td style="border:lpx solid red">Ritik</td>
+        <td style="border:lpx solid red">B</td>
+        <td style="border:lpx solid red">37</td>
+        <td style="border:lpx solid red">MCA</td>
+
+    </tr>
+</table>
+</body>
+</html>
